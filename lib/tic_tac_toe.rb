@@ -120,7 +120,6 @@ class TicTacToe
     def play
       self.turn
         self.display_board
-      end
       if self.won?
         puts "Congraulations #{winner}!"
       else
