@@ -127,7 +127,7 @@ class TicTacToe
         puts "Congraulations #{winner}!"
       else
         puts "Game ended in a draw."
-
+       end
     end
 
   end
