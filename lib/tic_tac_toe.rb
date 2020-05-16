@@ -126,6 +126,5 @@ class TicTacToe
       else
         puts "Game ended in a draw."
        end
-    end
 
   end
