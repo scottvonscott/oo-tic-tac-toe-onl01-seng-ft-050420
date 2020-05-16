@@ -123,7 +123,7 @@ class TicTacToe
         self.turn
         self.display_board
       end
-      
+
     end
 
   end
