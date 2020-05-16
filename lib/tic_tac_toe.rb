@@ -122,7 +122,7 @@ class TicTacToe
         self.turn
       end
         if self.won?
-          puts "Congraulations #{winner}!"
+          puts "Congratulations #{winner}!"
         else
           puts "Game ended in a draw."
         end
