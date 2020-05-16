@@ -129,7 +129,7 @@ class TicTacToe
          end
       else
         self.turn
-      end 
+      end
      end
 
   end
