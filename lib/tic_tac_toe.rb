@@ -118,7 +118,6 @@ class TicTacToe
     end
 
     def play
-      self.turn
       unless self.over?
         self.turn
       else
