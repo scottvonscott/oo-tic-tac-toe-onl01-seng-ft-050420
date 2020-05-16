@@ -66,7 +66,7 @@ class TicTacToe
 
     def won?
       WIN_COMBINATIONS.each do |winning_arrays|
-        if @board[winning_arrays[0]] == @board[winning_arrays[1]] && @board[winning_arrays[2]] == @board[winning_arrays[1]]
+        if @board[winning_arrays[0]] == @board[winning_arrays[1]] && @board[winning_arrays[2]] == @board[winning_arrays[1]] && position_taken?(winning_arrays[1])
             return winning_arrays
           end
         end
@@ -104,6 +104,7 @@ class TicTacToe
     end
 
     def winner
+      # binding.pry
       turn = self.turn_count
       if self.won?
           if turn.even?
@@ -111,7 +112,7 @@ class TicTacToe
           else
             "X"
           end
-        else
+      else
           nil
       end
     end
