@@ -118,9 +118,7 @@ class TicTacToe
     end
 
     def play
-      self.new
-      unless self.over?
-        self.turn
+      self.turn
         self.display_board
       end
       if self.won?
