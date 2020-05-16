@@ -119,7 +119,7 @@ class TicTacToe
 
     def play
       self.turn
-      while self != self.over?
+      unless self.over?
         self.turn
       end
         if self.won?
