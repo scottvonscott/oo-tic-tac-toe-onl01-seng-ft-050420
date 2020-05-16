@@ -126,7 +126,8 @@ class TicTacToe
           puts "Game ended in a draw."
          end
       else
-        self.turn   
+        self.turn
+      end 
      end
 
   end
