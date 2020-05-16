@@ -104,7 +104,6 @@ class TicTacToe
     end
 
     def winner
-      # binding.pry
       turn = self.turn_count
       if self.won?
           if turn.even?
