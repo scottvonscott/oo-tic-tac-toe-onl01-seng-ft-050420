@@ -121,12 +121,13 @@ class TicTacToe
       self.turn
       unless self.over?
         self.turn
-      end
+      else
         if self.won?
           puts "Congraulations #{winner}!"
         else
           puts "Game ended in a draw."
          end
      end
+   end
 
   end
